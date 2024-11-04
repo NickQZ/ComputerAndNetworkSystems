@@ -54,7 +54,8 @@ Contact Us:
 ![image](https://github.com/user-attachments/assets/b6ecd9ec-951f-4e7b-9b74-e82898a60a71)
 
 
-The existing website design was outdated and required a comprehensive redesign. Computer & Network Systems© approached me to develop a modern aesthetic for the company's website. Below are the design concepts I created using Canva©.
+The existing website design was outdated and required a comprehensive redesign. I approached the owener of Computer & Network Systems© and pitched them my following designs with the intention of developing a modern aesthetic for the company's website. 
+Below are the design concepts I created using Canva©.
 
 ## Mock Designs:
 
