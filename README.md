@@ -60,14 +60,23 @@ Below are the design concepts I created using Canva©.
 ## Mock Designs:
 
 Home Page:
+
 ![image](https://github.com/user-attachments/assets/853848b7-5530-4ff3-8456-d29248013554)
+
 About Us:
+
 ![image](https://github.com/user-attachments/assets/0e421c8f-b607-4268-bfe5-714af65646d6)
+
 Our Services:
+
 ![image](https://github.com/user-attachments/assets/e744ebbf-140e-4cda-8be8-b880fa6c3ad8)
+
 What Our Client Say:
+
 ![image](https://github.com/user-attachments/assets/fa4d94f4-be6c-4865-afdc-a719b9ac608f)
+
 Contact Us:
+
 ![image](https://github.com/user-attachments/assets/5dca3bc5-4940-4941-bead-2727c7ff8c8d)
 
 ## Client Requirements:
