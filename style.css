@@ -1,8 +1,8 @@
-/*  Computer & Network Systems Website 
-     Version 2.0 
+/*   Computer & Network Systems Website 
+     Version 3.0 
      Created by: Nicholas Jones
      Date: 6/11/2024
-     Log: Added About Us section and Our services cards.
+     Log: Added Our Services and Remote Support Section inluding links.
 
 /* Website Layout 
    1. Home 
@@ -269,8 +269,7 @@ body {
 }
 
 .card4, 
-.card5, 
-.card6 {
+.card5 {
     width: 300px;
     height: 70px;
     border: 1px solid #ff0000;
@@ -280,6 +279,23 @@ body {
     text-align: center;
     background-color: black;
 }
+
+.card4:hover {
+    background-color: #ff0000;
+    color: black;
+    transition: transform 0.6s ease;
+    transform: scale(1.2);
+}
+
+.card5:hover {
+    background-color: #ff0000;
+    color: black;
+    transition: transform 0.6s ease;
+    transform: scale(1.2);
+}
+
+/*------------------------------------ Page 5 What Our Clients Say Page -----------------------------------------------*/
+
 
 /*------------------------------------ Page 6 Footer Page -----------------------------------------------*/
 
