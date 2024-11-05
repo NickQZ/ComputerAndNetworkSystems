@@ -30,7 +30,7 @@ Copyright © Proudly created with Wix.com
 
 Video used acredited to:
 
-- <a href="https://www.freepik.com/author/igva/videos">Video by igva</a> 
+- Video used on this website is owned and &copy; copyrighted by <a href="https://www.vidsplay.com/" target="_blank">VidsPlay.com</a></p>
 
 ## Documentation
 
@@ -61,7 +61,7 @@ Below are the design concepts I created using Canva©.
 
 Home Page:
 
-![image](https://github.com/user-attachments/assets/853848b7-5530-4ff3-8456-d29248013554)
+![image](https://github.com/user-attachments/assets/5bf3e747-87ad-4c34-a47b-838952eead48)
 
 About Us:
 
