@@ -1,8 +1,8 @@
-/* Computer & Network Systems Website 
-     Version 1.0 
+/*  Computer & Network Systems Website 
+     Version 2.0 
      Created by: Nicholas Jones
-     Date: 5/11/2024
-     Log: Created home page & Footer.
+     Date: 6/11/2024
+     Log: Added About Us section and Our services cards.
 
 /* Website Layout 
    1. Home 
@@ -25,12 +25,18 @@
 }
 
 /*------------------------------------ Basic Styling -----------------------------------------------*/
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     color: white;
 }
 
 p {
     color: white;
+    font-size: 16px;
 }
 
 li, a, button {
@@ -43,7 +49,7 @@ li, a, button {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    background-color: black;
 }
 
 /*------------------------------------ Hero Styling -----------------------------------------------*/
@@ -155,36 +161,143 @@ body {
     z-index: -1; /* Keeps the video behind the content */
 }
 
+/*------------------------------------ Page 2 About Us Page -----------------------------------------------*/
+
+/* Overall container */
+.about_us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Create two equal-width columns */
+    gap: 5px; /* Spacing between columns */
+    padding: 20px 0;
+    grid-template-rows: auto; /* Automatically adjust rows */
+    background-color: black;
+}
+
+/* Title Section */
+.about_us_title {
+    grid-column: span 3; /* Make the title span across both columns */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_us_title h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* First content section */
+.about_us_content {
+    grid-column: 1; /* Place this content in the first column */
+}
+
+/* Second content section */
+.about_us_content2 {
+    grid-column: 2; /* Place this content in the second column */
+}
+
+/* Third content section */
+.about_us_content3 {
+    grid-column: 3; /* Place this content in the third column */
+}
+
+.about_us_text h3 {
+    font-size: 20px;
+}
 
 
+/* Styling for text in each content box */
+.about_us_content, 
+.about_us_content2, 
+.about_us_content3 {
+    padding: 5px;
+    margin-left: 20%;
+    line-height: 1.5;
+    text-align: justify;
+}
 
 
+/* Heading and Paragraph Styling */
+.about_us_text2, .about_us_text3, .about_us_text4 p {
+    padding: 5px;
+    margin-right: 20%;
+}
 
+/*------------------------------------ Page 3 Our Services Page -----------------------------------------------*/
+.our_services {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+}
 
+.our_services_title h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
 
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.card, 
+.card2, 
+.card3 {
+    width: 300px;
+    height: 70px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px ;
+    text-align: center;
+    background-color: black;
+}
 
+/*------------------------------------ Page 4 Remote Support Page -----------------------------------------------*/
 
+.remote_support {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+}
 
+.remote_support_title h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
 
-
+.card4, 
+.card5, 
+.card6 {
+    width: 300px;
+    height: 70px;
+    border: 1px solid #ff0000;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px ;
+    text-align: center;
+    background-color: black;
+}
 
 /*------------------------------------ Page 6 Footer Page -----------------------------------------------*/
 
 footer {
-    background-color: black; /* Shortened */
+    background-color: black;
     color: white;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    grid-column: span 2;
+    justify-content: center;
     align-items: center;
 }
 
 .footer-logo {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center;     /* Center the content vertically (if needed) */
-    width: 100%;             /* Ensure it takes up the full width of the footer */
+    justify-content: center;
+    align-items: center;     
+    width: 100%;             
 }
 
 .footer-logo img {
@@ -196,7 +309,7 @@ footer {
 }
 
 .footer a:hover {
-    color: #ff0000;
+    color: #15deea;
 }
 
 .footer-text,
@@ -217,7 +330,7 @@ footer {
 
 .footer-text a:hover,
 .footer-icons a:hover {
-    color: #ff0000;
+    color: #15deea;
 }
 
 .footer-list {

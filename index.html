@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- Computer & Network Systems Website 
-     Version 1.0 
+     Version 2.0 
      Created by: Nicholas Jones
-     Date: 5/11/2024
-     Log: Created home page & Footer.
+     Date: 6/11/2024
+     Log: Added About Us section and Our services cards.
 -->
 <html lang="en">
 <head>
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!------------------------------------ Page 1 Home Page ------------------------------------>
     <div class="hero">
         <video autoplay loop muted playsinline class="back-video">
             <source src="videos\floating_particles_stock_video_footage.mp4" type="video/mp4">
@@ -23,8 +24,8 @@
         <nav class="navbar">
             <img src="images/CNS_Logo.png" alt="logo" class="logo">
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Services</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#our-services">Our Services</a></li>
                 <li><a href="#">What Our Clients Say</a></li>
                 <div class="contact_btn">
                     <a href="#">Contact Us</a>
@@ -39,9 +40,66 @@
     </div>
 
 
+    <!------------------------------------ Page 2 About Us Page ------------------------------------>
+    <section id="about-us">
+        <div class="about_us">
+            <div class="about_us_title">
+                <h2>About Us</h2>
+            </div>
+    
+            <div class="about_us_content">
+                <div class="about_us_text">
+                    <h3>Computer & Network Systems is based in Thames on the Coromandel Peninsula.</h3>
+                    <p>At Computer & Network Systems, we provide our business clients with flexible on-site or remote support.</p>
+                </div>
+            </div>
+    
+            <div class="about_us_content2">
+                <div class="about_us_text2">
+                    <p>A functional and efficient IT system is an essential business tool and we have been supporting businesses for over 20 years.</p></p>
+                </div>
+    
+                <div class="about_us_text3">
+                    <p>Computer systems are not just about hardware. We understand the links between hardware, software and the internet. Often acting as the middleman to identify if the problem is hardware or software based and we happily work with our customers software vendors to resolve issues quickly.</p>
+                </div>
+            </div>  
+    
+            <div class="about_us_content3">
+                <div class="about_us_text4">
+                    <p>We sell all things hardware from a mouse to a high-end servers.<br> Ours skills range from a simple hard drive replacement to virtualised server installs.</p>
+                </div>
+            </div>  
+        </div>
+    </section>
+    
+    
+    <!------------------------------------ Page 3 Our Services Page ------------------------------------>
+    <section id="our-services">
+        <div class="our_services">
+            <div class="our_services_title">
+                <h2>Our Services</h2>
+            </div>
 
+            <div class="cards">
+                <div class="card">
+                    <div class="card_text">
+                        <h3>Professional IT Support</h3>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="card2_text">
+                        <h3>Onsite & Remote Support</h3>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="card3_text">
+                        <h3>Hardware Sales</h3>
+                    </div>
+                </div>
+            </div>    
+    </section>
 
-
+      
 
 <!-- Footer -->
      <footer>
@@ -51,8 +109,8 @@
             </div>
             <div class="footer-list">
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#our-services">Our Services</a></li>
                     <li><a href="#">What Our Clients Say</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
