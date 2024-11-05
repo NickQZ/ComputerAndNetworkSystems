@@ -1,8 +1,8 @@
-/*   Computer & Network Systems Website 
-     Version 3.0 
+/*  Computer & Network Systems Website 
+     Version 5.0 
      Created by: Nicholas Jones
      Date: 6/11/2024
-     Log: Added Our Services and Remote Support Section inluding links.
+     Log: Created Client review page with trasitions on hover, stars added too.  
 
 /* Website Layout 
    1. Home 
@@ -249,9 +249,17 @@ body {
     border: 1px solid #ffffff;
     border-radius: 20px;
     margin: 30px;
-    padding: 20px ;
+    padding: 20px;
     text-align: center;
     background-color: black;
+}
+
+.card h3, 
+.card2 h3, 
+.card3 h3 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /*------------------------------------ Page 4 Remote Support Page -----------------------------------------------*/
@@ -280,6 +288,13 @@ body {
     background-color: black;
 }
 
+.card4 a, 
+.card5 a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
 .card4:hover {
     background-color: #ff0000;
     color: black;
@@ -296,7 +311,67 @@ body {
 
 /*------------------------------------ Page 5 What Our Clients Say Page -----------------------------------------------*/
 
+.what-our-clients-say {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+  
+}
 
+.what-our-clients-say_title h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.client_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+}
+
+.card6, 
+.stars {
+    color: #15deea;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.card6, 
+.card7, 
+.card8 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #15deea;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(81, 74, 74);
+}
+
+
+.name h3{
+    padding: 10px;
+
+}
+
+.comment p {
+    padding: 5px;
+    text-align: center;
+}
+
+
+.card6:hover,
+.card7:hover,
+.card8:hover {
+    background-color: #000000;
+    color: black;
+    transition: transform 0.6s ease;
+    transform: translateY(-14px);
+}
 /*------------------------------------ Page 6 Footer Page -----------------------------------------------*/
 
 footer {
