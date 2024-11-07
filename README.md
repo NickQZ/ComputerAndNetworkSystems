@@ -65,19 +65,19 @@ Home Page:
 
 About Us:
 
-![image](https://github.com/user-attachments/assets/0e421c8f-b607-4268-bfe5-714af65646d6)
+![image](https://github.com/user-attachments/assets/04bf67da-4f38-478a-83e8-c0f8438e27fe)
 
 Our Services:
 
-![image](https://github.com/user-attachments/assets/e744ebbf-140e-4cda-8be8-b880fa6c3ad8)
+![image](https://github.com/user-attachments/assets/996b4018-35b0-4b7f-8f17-169d6f889091)
 
 What Our Client Say:
 
-![image](https://github.com/user-attachments/assets/fa4d94f4-be6c-4865-afdc-a719b9ac608f)
+![image](https://github.com/user-attachments/assets/af27b7fa-4af4-4735-9141-b8ade708776a)
 
 Contact Us:
 
-![image](https://github.com/user-attachments/assets/5dca3bc5-4940-4941-bead-2727c7ff8c8d)
+![image](https://github.com/user-attachments/assets/b80355a7-596b-47d9-afb3-2ee904bd2c14)
 
 ## Client Requirements:
 
