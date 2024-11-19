@@ -1,8 +1,8 @@
 /*  Computer & Network Systems Website 
-     Version 6.0 
+     Version 6.1 
      Created by: Nicholas Jones
-     Date: 8/11/2024
-     Log: Complete redesign of website to better fit a mobile device.  
+     Date: 20/11/2024
+     Log: Added cursor hover to default for Our Services page, for a better user experience. 
 
 /* Website Layout 
    1. Home 
@@ -245,6 +245,15 @@ body {
 .card_5 h3,
 .card_6 h3 {
     color:#15deea;
+}
+
+.card_4:hover,
+.card_4 h3:hover,
+.card_5:hover,
+.card_5 h3:hover,
+.card_6:hover,
+.card_6 h3:hover {
+  cursor: default; 
 }
 
 /*------------------------------------ Page 4 Remote Support Page -----------------------------------------------*/
